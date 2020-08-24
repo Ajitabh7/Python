@@ -1,0 +1,8 @@
+ n=int(input())
+     for i in range(3,n)
+        if n%3==0 and n%5!=0:
+            print("fizz")
+        elif n%5==0 and n%3!=0:
+            print("buzz")
+        else n%3==0 and n%5==0:
+           print("fizz buzz") 
